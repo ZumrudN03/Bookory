@@ -1,0 +1,94 @@
+#navbar_container {
+  .navbar_upside_container {
+    max-width: 100%;
+    border-bottom: 1px solid lightgray;
+    .navbar_upside {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 15px 0px;
+      .findBookStore {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        .navbar_phoneNum {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          p {
+            font-size: 13px;
+          }
+          i {
+            font-size: 13px;
+            color: #f4402f;
+            &:hover {
+              scale: (0.9);
+            }
+          }
+        }
+        a {
+          font-size: 13px;
+          font-weight: 600;
+          color: black;
+          text-decoration: underline;
+          cursor: pointer;
+          transition: 400ms;
+          &:hover {
+            color: #f4402f;
+          }
+        }
+      }
+      &_icon {
+        display: flex;
+        gap: 25px;
+        i {
+          font-size: 13px;
+          cursor: pointer;
+          transition: 300ms;
+          &:hover {
+            color: #f4402f;
+            scale: (0.9);
+          }
+        }
+      }
+    }
+  }
+  .navbar {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    &_logo{
+        cursor: pointer;
+    }
+    &_navMenu {
+      display: flex;
+      gap: 50px;
+      transition: 300ms;
+      p {
+        font-weight: 600;
+        i {
+          padding-left: 8px;
+          font-size: 13px;
+        }
+        &:hover {
+            color: #f4402f;
+            cursor: pointer;
+          }
+      }
+    }
+    &_icons {
+      display: flex;
+      gap: 25px;
+      transition: 200ms;
+      i{
+        &:hover {
+            color: #f4402f;
+            cursor: pointer;
+          }
+      }
+    }
+  }
+}

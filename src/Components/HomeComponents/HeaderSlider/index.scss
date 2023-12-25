@@ -1,0 +1,87 @@
+#headerSlider{
+    max-width: 100%;
+    .editorChoice{
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+        background-color: red;
+        height: 600px;
+        background-image: url("https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/revslider_2.jpg");
+        img{
+            width: 566px;
+            height: 465px;
+            margin-right: 200px;
+        }
+        &_textBox{
+            margin-left: 100px;
+            text-align: center;
+            h2{
+                font-size: 64px;
+                width: 450px;
+                font-weight: 600;
+            }
+            p{
+                font-size: 13px;
+                color: #999999;
+            }
+            button{
+                padding: 15px 30px;
+                border-radius: 30px;
+                border: none;
+                background-color: white;
+                font-weight: 500;
+                font-size: 16px;
+                i{
+                    color: #EF977F;
+                }
+
+            }
+        }
+    }
+    .ourBigestSale{
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+        background-color: red;
+        height: 600px;
+        background-image: url("https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/revslider_2.jpg");
+        img{
+            width: 801px;
+            height: 454px;
+            margin-right: 200px;
+        }
+        &_textBox{
+            margin-left: 100px;
+            text-align: center;
+            h2{
+                font-size: 64px;
+                font-weight: 600;
+                white-space: nowrap;
+            }
+            p{
+                font-size: 13px;
+                color: #999999;
+            }
+            h6{
+                font-size: 16px;
+                color: #F65D4E;
+                font-weight: 600;
+            }
+            button{
+                padding: 15px 30px;
+                border-radius: 30px;
+                border: none;
+                background-color: white;
+                font-weight: 500;
+                font-size: 16px;
+                margin-top: 20px;
+                i{
+                    color: #EF977F;
+                }
+
+            }
+        }
+    }
+}

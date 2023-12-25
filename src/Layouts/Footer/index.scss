@@ -1,0 +1,86 @@
+.footer_container {
+  height: 480px;
+  background-color: #282828;
+  max-width: 100%;
+  .footer_underside_container {
+    max-width: 100%;
+    border-top: 1px solid gray;
+    .footer_underside {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 0px;
+      p {
+        font-size: 14px;
+        color: rgb(186, 186, 186);
+        a {
+          color: #f4402fc3;
+        }
+      }
+    }
+  }
+  .footer {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0px;
+    p {
+      color: lightgray;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    li {
+      font-size: 14px;
+      color: rgb(146, 146, 146);
+      padding: 5px 0px;
+    }
+    &_logo {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .footer_location {
+      max-width: 180px;
+      font-size: 15px;
+      color: rgb(146, 146, 146);
+      font-weight: 400;
+    }
+    a {
+      font-size: 13px;
+      text-decoration: underline;
+      color: lightgray;
+      font-weight: 500;
+    }
+    .footer_icons {
+      display: flex;
+      gap: 20px;
+      i {
+        color: rgb(150, 150, 150);
+      }
+    }
+    &_contact {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      border-left: 1px solid rgb(79, 79, 79);
+      padding-left: 40px;
+      h4 {
+        font-size: 28px;
+        color: #f65d4e;
+      }
+      .footer_workTime {
+        .footer_time {
+          font-size: 15px;
+          color: rgb(146, 146, 146);
+          font-weight: 400;
+        }
+      }
+      .footer_mail {
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+}

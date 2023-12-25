@@ -1,10 +1,11 @@
 #headerSlider{
-    max-width: 100%;
+    overflow-x: hidden;
+
     .editorChoice{
         display: flex !important;
         justify-content: space-between;
         align-items: center;
-        max-width: 100%;
+        max-width: 100vw;
         background-color: red;
         height: 600px;
         background-image: url("https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/revslider_2.jpg");

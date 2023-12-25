@@ -1,11 +1,12 @@
 import React from "react";
-import MainLayout from "../../Layouts/MainLayout";
 import HeaderSlider from "../../Components/HomeComponents/HeaderSlider";
+import BestSellerSection from "../../Components/HomeComponents/BestSellerComponents/BestSellerSection";
 
 function HomePage() {
   return (
     <div>
         <HeaderSlider />
+        <BestSellerSection/>
     </div>
   );
 }

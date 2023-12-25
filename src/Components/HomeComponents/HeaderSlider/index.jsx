@@ -5,9 +5,9 @@ import "./index.scss";
 function HeaderSlider() {
   var settings = {
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     speed: 2000,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,

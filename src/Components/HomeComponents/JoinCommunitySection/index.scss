@@ -1,0 +1,67 @@
+.joinCommunitySection{
+    max-width: 1300px;
+    height: 340px;
+    margin: 0 auto;
+    background-color: #A1D0B9;
+    display: flex;
+    border-radius: 20px;
+    &_img{
+        width: 50%;
+        background-image: url("https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/h2_bg.png");
+        display: flex;
+        justify-content: center;
+        position: relative;
+        img{
+            position: absolute;
+            top: 40px;
+        }
+    }
+    &_textBox{
+        width: 50%;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 70px;
+        gap: 20px;
+        .join{
+            font-size: 34px;
+            color: white; 
+            font-weight: 600;
+        }
+        p{
+            font-size: 14px;
+            color: white;
+            width: 500px;
+        }
+        &_inp{
+            display: flex;
+            position: relative;
+
+            input{
+                width: 450px;
+                border: none;
+                outline: none;
+                height: 50px;
+                padding-left: 20px;
+                border-radius: 40px;
+            }
+            button{
+                height: 50px;
+                width: 140px;
+                border-radius: 30px;
+                border: none;
+                background-color: #F65D4E;
+                font-weight: 600;
+                font-size: 14px;
+                color: white;
+                white-space: nowrap;
+                position: absolute;
+                right: 40px;
+                i{
+                    color: white;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}

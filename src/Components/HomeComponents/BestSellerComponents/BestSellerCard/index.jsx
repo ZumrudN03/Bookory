@@ -23,12 +23,21 @@ function BestSellerCard() {
                 <Link><button>View All <i className="fa-solid fa-angle-right"></i></button></Link>
             </div>
             {bestSellerCard.map((x) => (
-                <div key={x.id}>
-                    <img src={x.thumbnail} alt=""   style={{width:"200px" , height:"200px"}}/>
+                <div className='bestSellerCard_cardMain' key={x.id}>
+                    <img src={x.volumeInfo.imageLinks?.thumbnail?x.volumeInfo.imageLinks.thumbnail:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61Zeai3qcCL._SY445_SX342_.jpg"} alt="" />
+                    <div className="bestSellerCard_cardMain_textBox">
                     <h2>{x.volumeInfo.title}</h2>
+                    <div className="bestSellerCard_cardMain_textBox_icon">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-regular fa-star"></i>
+                    <p>{x.volumeInfo.averageRating}</p>
+                    </div>
                     <h6> Authors :{x.volumeInfo.authors}</h6>
-
                     <p>{x.volumeInfo.authors && x.volumeInfo.authors.join(", ")}</p>
+                    </div>
                 </div>
             ))}
         </div>
